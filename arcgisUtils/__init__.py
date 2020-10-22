@@ -1,4 +1,4 @@
-from .vizzuality import Vizz
+from .arctable import ArcTable
 #from pkg_resources import get_distribution
 
 #__version__ = get_distribution('PyPackage-template').version

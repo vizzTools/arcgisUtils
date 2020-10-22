@@ -11,7 +11,7 @@ README = (HERE / "README.md").read_text()
 setuptools.setup(
     name="arcgisUtils",
     version="0.0.1",
-    description="An example Python package template",
+    description="Functions to interact with the api in arcgis online.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/vizzTools/arcgisUtils",

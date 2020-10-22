@@ -9,14 +9,14 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setuptools.setup(
-    name="PyPackage-template",
+    name="arcgisUtils",
     version="0.0.1",
     description="An example Python package template",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Vizzuality/PyPackage-template",
+    url="https://github.com/vizzTools/arcgisUtils",
     author="Vizzuality",
-    author_email="iker.sanchez@vizzuality.com",
+    author_email="greta.carrete@vizzuality.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -24,11 +24,11 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
     ],
-    packages=['PyPackage_template'],
-    install_requires=['requests>=2.2.0', 'folium==0.8.3'],
+    packages=['arcgisUtils'],
+    install_requires=['requests>=2.2.0', 'arcgis>=1.8.2'],
     entry_points={
         "console_scripts": [
-            "vizzpython=PyPackage_template.__main__:main",
+            "vizzpython=arcgisUtils.__main__:main",
         ]
     },
 )
